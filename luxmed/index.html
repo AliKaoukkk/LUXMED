@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>LUXMED Clinic | Family Doctor &amp; OBGYN in Ghobeiry, Lebanon</title>
+  <meta name="description" content="LUXMED Clinic in Ghobeiry, Beirut: family medicine, OBGYN, prenatal care and women's health. Book your appointment on WhatsApp.">
+  <meta name="theme-color" content="#0E6B73">
+  <link rel="icon" href="images/favicon.svg" type="image/svg+xml">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Jost:wght@400;500;600&family=Source+Serif+4:opsz,wght@8..60,500;8..60,600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <!-- ===== Icon sprite (reused with <use href="#id">) ===== -->
+  <svg width="0" height="0" style="position:absolute" aria-hidden="true">
+    <defs>
+      <symbol id="i-logo" viewBox="0 0 40 44">
+        <path d="M20 2 37 8v12c0 11-8 19-17 22C11 39 3 31 3 20V8Z" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linejoin="round"/>
+        <path d="M17 13h6v6h6v6h-6v6h-6v-6h-6v-6h6z" fill="currentColor"/>
+      </symbol>
+      <symbol id="i-wa" viewBox="0 0 24 24">
+        <path fill="currentColor" d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm0 18.2c-1.5 0-3-.4-4.2-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8-.2-.1-.4-.1-.6.1l-.8 1c-.1.2-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.3-.4.2-.4.7-1.3.1-.2 0-.3 0-.4l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 0 0-.7.3 3 3 0 0 0-.9 2.2c0 1.3.9 2.5 1 2.7.1.2 1.8 2.8 4.4 3.9 1.6.7 2.3.8 3.1.6.5-.1 1.5-.6 1.7-1.2.2-.6.2-1.1.2-1.2-.1-.1-.3-.2-.5-.3z"/>
+      </symbol>
+      <symbol id="i-check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">
+        <circle cx="12" cy="12" r="9"/><path d="m8 12 3 3 5-6"/>
+      </symbol>
+      <symbol id="i-users" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">
+        <circle cx="9" cy="8" r="3.5"/><path d="M2.5 20a6.5 6.5 0 0 1 13 0"/><path d="M16 4.5a3.5 3.5 0 0 1 0 7M18 14a6 6 0 0 1 3.5 6"/>
+      </symbol>
+      <symbol id="i-clock" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">
+        <circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/>
+      </symbol>
+      <symbol id="i-steth" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M5 3v5a5 5 0 0 0 10 0V3"/><path d="M10 13v3a4 4 0 0 0 8 0v-3"/><circle cx="18" cy="11" r="2"/>
+      </symbol>
+      <symbol id="i-lotus" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M12 20c-4.5-1.5-8-4.5-8-9 3.2 0 6 1.6 8 4.5 2-2.9 4.8-4.5 8-4.5 0 4.5-3.5 7.5-8 9z"/><path d="M12 15.5C10.5 13 10.3 9.5 12 5c1.7 4.5 1.5 8 0 10.5z"/>
+      </symbol>
+      <symbol id="i-baby" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">
+        <circle cx="12" cy="13" r="8"/><path d="M9.5 15.5a3.2 3.2 0 0 0 5 0"/><path d="M12 5c1.6-.3 2.6.6 2 1.8"/><path d="M9 11.5h.01M15 11.5h.01" stroke-width="2.4"/>
+      </symbol>
+      <symbol id="i-heart" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M12 20s-7.5-4.6-7.5-10.2A4.2 4.2 0 0 1 12 7.2a4.2 4.2 0 0 1 7.5 2.6C19.5 15.4 12 20 12 20z"/>
+      </symbol>
+      <symbol id="i-pin" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M12 21s-7-6.2-7-11a7 7 0 0 1 14 0c0 4.8-7 11-7 11z"/><circle cx="12" cy="10" r="2.5"/>
+      </symbol>
+      <symbol id="i-phone" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M5 3h3l2 5-2.5 1.5a11 11 0 0 0 5 5L14 12l5 2v3a2 2 0 0 1-2 2A15 15 0 0 1 3 5a2 2 0 0 1 2-2z"/>
+      </symbol>
+      <symbol id="i-mail" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">
+        <rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/>
+      </symbol>
+      <symbol id="i-ig" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">
+        <rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><path d="M17.5 6.5h.01" stroke-width="2.4"/>
+      </symbol>
+      <symbol id="i-fb" viewBox="0 0 24 24">
+        <path fill="currentColor" d="M14 8h3V4h-3a4 4 0 0 0-4 4v3H7v4h3v6h4v-6h3l1-4h-4V8.5c0-.3.2-.5.5-.5z"/>
+      </symbol>
+    </defs>
+  </svg>
+
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <!-- ===== Header ===== -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="#home" class="logo" aria-label="LUXMED home">
+        <svg aria-hidden="true"><use href="#i-logo"/></svg>
+        <span>LUXMED</span>
+      </a>
+
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="Open menu">
+        <span></span><span></span><span></span>
+      </button>
+
+      <nav id="site-nav" class="site-nav" aria-label="Main">
+        <ul>
+          <li><a href="#home" class="active">Home</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#doctors">Our Doctors</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <a class="btn btn-teal btn-pill btn-sm" data-whatsapp href="#">
+          <svg class="icon" aria-hidden="true"><use href="#i-wa"/></svg>
+          Book Appointment
+        </a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+
+    <!-- ===== Hero ===== -->
+    <section class="hero" id="home">
+      <div class="hero-text">
+        <p class="badge">Family Doctor &amp; OBGYN • Ghobeiry, Lebanon</p>
+        <h1>LUXMED, where your health is a luxury you can afford.</h1>
+        <p class="lead">Compassionate, premium medical care for your family — from routine family medicine to expert OBGYN and prenatal care, right here in Ghobeiry.</p>
+        <div class="hero-actions">
+          <a class="btn btn-teal" data-whatsapp href="#">
+            Book Appointment —
+            <svg class="icon" aria-hidden="true"><use href="#i-wa"/></svg>
+            WhatsApp
+          </a>
+          <a class="btn btn-outline" href="#services">View Our Services</a>
+        </div>
+      </div>
+
+      <div class="hero-media">
+        <!-- Placeholder shows until images/hero.jpg exists -->
+        <svg class="hero-placeholder" aria-hidden="true"><use href="#i-logo"/></svg>
+        <img src="images/hero.jpg" alt="Doctor smiling with a young family at LUXMED Clinic" onerror="this.remove()">
+      </div>
+    </section>
+
+    <!-- ===== Trust strip + Services ===== -->
+    <section class="services" id="services">
+      <div class="container">
+        <div class="services-head">
+          <ul class="trust" id="about">
+            <li>
+              <svg class="icon" aria-hidden="true"><use href="#i-check"/></svg>
+              <span>Licensed<br>MOH Approved</span>
+            </li>
+            <li>
+              <svg class="icon" aria-hidden="true"><use href="#i-users"/></svg>
+              <span>5000+ Families<br>Cared For</span>
+            </li>
+            <li>
+              <svg class="icon" aria-hidden="true"><use href="#i-clock"/></svg>
+              <span>Mon–Sat<br>9:00–19:00</span>
+            </li>
+          </ul>
+
+          <div class="section-title">
+            <h2>Our Services</h2>
+            <p>Comprehensive care for every stage of life, tailored to you and your family.</p>
+          </div>
+        </div>
+
+        <div class="service-grid">
+          <article class="service-card">
+            <div class="icon-circle"><svg aria-hidden="true"><use href="#i-steth"/></svg></div>
+            <h3>Family Medicine</h3>
+            <p>Annual check-ups, chronic care management, preventive health for all ages.</p>
+          </article>
+          <article class="service-card">
+            <div class="icon-circle"><svg aria-hidden="true"><use href="#i-lotus"/></svg></div>
+            <h3>OBGYN</h3>
+            <p>Women's reproductive health, regular screenings, gynecological care with privacy &amp; compassion.</p>
+          </article>
+          <article class="service-card">
+            <div class="icon-circle"><svg aria-hidden="true"><use href="#i-baby"/></svg></div>
+            <h3>Prenatal Care</h3>
+            <p>Full prenatal support, ultrasounds, guidance through pregnancy &amp; postpartum.</p>
+          </article>
+          <article class="service-card">
+            <div class="icon-circle"><svg aria-hidden="true"><use href="#i-heart"/></svg></div>
+            <h3>Women's Health</h3>
+            <p>Hormonal health, family planning, menopause care, wellness checkups.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Doctors + Clinic ===== -->
+    <section class="doctors" id="doctors">
+      <div class="container">
+        <div class="doctors-head">
+          <h2>Our Doctors</h2>
+          <p>Meet our experienced, caring medical professionals.</p>
+        </div>
+      </div>
+
+      <div class="clinic-band">
+        <div class="container clinic-grid">
+
+          <div class="clinic-info" id="contact">
+            <h2>Visit Our Clinic in Ghobeiry</h2>
+            <p>LUXMED Clinic is located in the heart of Ghobeiry, Beirut — easily accessible and welcoming for families.</p>
+            <ul class="contact-list">
+              <!-- TODO: real address / phone / email -->
+              <li><svg class="icon" aria-hidden="true"><use href="#i-pin"/></svg> Ghobeiry, Beirut, Lebanon</li>
+              <li><svg class="icon" aria-hidden="true"><use href="#i-phone"/></svg> <a data-phone href="#">+961 1 555 823</a></li>
+              <li><svg class="icon" aria-hidden="true"><use href="#i-mail"/></svg> <a data-email href="#">contact@luxmed-lb.com</a></li>
+            </ul>
+            <a class="btn btn-gold" data-maps href="#">Get Directions on Map</a>
+          </div>
+
+          <article class="doctor-card doc-1">
+            <div class="avatar">
+              <span aria-hidden="true">SK</span>
+              <img src="images/dr-sarah.jpg" alt="Dr. Sarah Khatoun" onerror="this.remove()">
+            </div>
+            <h3>Dr. Sarah Khatoun</h3>
+            <p class="role">Family Medicine Specialist</p>
+            <p class="bio">MBBS, 10+ years in family &amp; pediatric care. Focused on preventive health and family wellness.</p>
+            <span class="tag">Accepting new patients</span>
+          </article>
+
+          <article class="doctor-card doc-2">
+            <div class="avatar">
+              <span aria-hidden="true">RN</span>
+              <img src="images/dr-rita.jpg" alt="Dr. Rita Nohra" onerror="this.remove()">
+            </div>
+            <h3>Dr. Rita Nohra</h3>
+            <p class="role">OBGYN Consultant</p>
+            <p class="bio">MD OBGYN, 12+ years in women's health &amp; prenatal care. Gentle, evidence-based care for women at every stage.</p>
+            <span class="tag">Available for consultations</span>
+          </article>
+
+          <!-- TODO: replace this placeholder with a Google Maps <iframe> (it will fill the box) -->
+          <div class="map" role="img" aria-label="Map showing LUXMED Clinic in Ghobeiry">
+            <svg viewBox="0 0 400 240" preserveAspectRatio="xMidYMid slice" aria-hidden="true">
+              <rect width="400" height="240" fill="#E9F1F2"/>
+              <path d="M0 0h120c-10 40 20 70 0 110s-30 90-10 130H0z" fill="#BFD9E0"/>
+              <g fill="none" stroke="#fff" stroke-width="7" stroke-linecap="round">
+                <path d="M130 20 380 60M110 120l290 10M140 200l250-40M200 0l40 240M300 0l-20 240"/>
+              </g>
+              <g fill="none" stroke="#7FB3BC" stroke-width="2.5" stroke-linecap="round">
+                <path d="M120 70c80 10 160-20 280 0M160 240c20-70 90-120 240-150"/>
+              </g>
+              <g fill="none" stroke="#D5E3E5" stroke-width="3">
+                <path d="M150 45h60M250 100h40M330 180l40-20M170 160l30 30M260 30l20 30"/>
+              </g>
+            </svg>
+            <span class="map-pin">
+              <svg class="icon" aria-hidden="true"><use href="#i-pin"/></svg>
+              LUXMED Clinic
+            </span>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== CTA ===== -->
+    <section class="cta">
+      <div class="container">
+        <h2>Ready to prioritize your family's health?</h2>
+        <p>Book your appointment now through WhatsApp for quick scheduling and personal support.</p>
+        <a class="btn btn-teal btn-sm" data-whatsapp href="#">
+          <svg class="icon" aria-hidden="true"><use href="#i-wa"/></svg>
+          Book Now on WhatsApp
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <!-- ===== Footer ===== -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <p>© <span id="year">2024</span> LUXMED Clinic • Ghobeiry, Lebanon</p>
+      <ul class="footer-links">
+        <li><a href="#">Privacy Policy</a></li>
+        <li><a href="#">Terms</a></li>
+        <li><a href="#">FAQs</a></li>
+      </ul>
+      <ul class="socials">
+        <!-- TODO: real social links -->
+        <li><a href="#" aria-label="Instagram"><svg class="icon" aria-hidden="true"><use href="#i-ig"/></svg></a></li>
+        <li><a href="#" aria-label="Facebook"><svg class="icon" aria-hidden="true"><use href="#i-fb"/></svg></a></li>
+        <li><a data-whatsapp href="#" aria-label="WhatsApp"><svg class="icon" aria-hidden="true"><use href="#i-wa"/></svg></a></li>
+      </ul>
+    </div>
+  </footer>
+
+  <!-- Floating WhatsApp button (mobile only) -->
+  <a class="wa-float" data-whatsapp href="#" aria-label="Book on WhatsApp">
+    <svg aria-hidden="true"><use href="#i-wa"/></svg>
+  </a>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
